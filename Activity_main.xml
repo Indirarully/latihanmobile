@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Gambar Profil -->
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/dira"/>
+
+    <ImageView
+        android:id="@+id/icontlpImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/telepon"
+        android:layout_alignTop="29dp"
+        android:layout_alignBottom="350dp"/>
+
+    <ImageView
+        android:id="@+id/bckgroundImageView"
+        android:layout_width="300dp"
+        android:layout_height="590dp"
+        android:layout_alignParentEnd="1dp"
+        android:layout_alignMarginEnd="-102dp"
+        android:src="@drawable/kotakbackground"/>
+
+    <ImageView
+        android:id="@+id/bckgroundImageView"
+        android:layout_width="300dp"
+        android:layout_height="950dp"
+        android:layout_alignParentEnd="1dp"
+        android:layout_alignMarginEnd="-102dp"
+        android:src="@drawable/kotakbackground"/>
+
+    <ImageView
+        android:id="@+id/bckgroundImageView"
+        android:layout_width="330dp"
+        android:layout_height="1000dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignMarginEnd="-102dp"
+        android:layout_alignMarginBottom="453dp"
+        android:src="@drawable/kotakbackgroundy"/>
+
+    <ImageView
+        android:id="@+id/iconmsgImageView"
+        android:layout_width="30dp"
+        android:layout_height="262dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/logopesan"/>
+
+    <ImageView
+        android:id="@+id/icontlpImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logosmapat"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="478dpdp"
+        android:layout_alignBottom="165dp"/>
+
+    <ImageView
+        android:id="@+id/icontlpImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logoupb"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="518dp"
+        android:layout_alignBottom="175dp"/>
+
+    <!-- Nama Lengkap -->
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="127dp"
+        android:layout_height="77dp"
+        android:text="Indira Rully P"
+        android:textSize="29sp"
+        android:fontFamily="serif"/>
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android developer"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rullypricilia@gmail.com"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/ttlTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jakarta, 20 Mei 2003"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/telephoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="085776093937"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/skillTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignMarginTop="-256dp"
+        android:layout_alignMarginEnd="28dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="Skill"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/skillTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignMarginTop="-238dp"
+        android:layout_alignMarginEnd="4dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="                  =Microsoft"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:id="@+id/skillTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignMarginTop="-218dp"
+        android:layout_alignMarginEnd="4dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="                   =Editing Video"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/skillTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignMarginTop="-198dp"
+        android:layout_alignMarginEnd="4dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="           =Visual studio code"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/skillTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignMarginTop="-178dp"
+        android:layout_alignMarginEnd="4dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="           =Python,html, C++"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/skillTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignMarginTop="-158dp"
+        android:layout_alignMarginEnd="4dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="           =Berpikir kritis"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/skillTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignMarginTop="-28dp"
+        android:layout_alignMarginEnd="-44dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="Pendidikan"
+        android:textSize="21sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/skillTextView"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignMarginTop="48dp"
+        android:layout_alignMarginEnd="15dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="          Universitas Pelita Bangsa"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/pdidikanTextView"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignMarginTop="-1dp"
+        android:layout_alignMarginEnd="14dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="          SMAN 4 Tambun Selatan"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/hobiTextView"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignMarginTop="140dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="hobi"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:typeface="serif/>
+
+    <TextView
+        android:id="@+id/hobiTextView"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignMarginTop="160dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="mendengar musik"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/hobiTextView"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignMarginTop="200dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="Renang"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/hobiTextView"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignMarginTop="180dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="memasak"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/hobiTextView"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignMarginTop="220dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="Bermain sosmed dan alat musik"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/bahasaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignMarginTop="194dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="Bahasa"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:typeface="serif/>
+
+    <TextView
+        android:id="@+id/aboutmeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignMarginTop="294dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="Tentang Saya"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:typeface="serif/>
+
+    <TextView
+        android:id="@+id/bahasaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignMarginTop="224dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="Indonesia aktif"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="sans-serif/>
+
+    <TextView
+        android:id="@+id/bahasaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignMarginTop="244dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="Inggris pasif"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:typeface="sans-serif/>
+
+    <TextView
+        android:id="@+id/aboutmeTextView"
+        android:layout_width="150dp"
+        android:layout_height="520dp"
+        android:layout_alignMarginTop="324dp"
+        android:layout_alignMarginBottom="8dp"
+        android:text="Saya adalah individu yang memiliki ketertarikan mendalam terhadap teknologi dan bersemangat untuk memberikan dukungan teknis yang handal sebagai IT Support."
+        android:textSize="10sp"
+        android:typeface="sans-serif/>
+
+</RelativeLayout>
