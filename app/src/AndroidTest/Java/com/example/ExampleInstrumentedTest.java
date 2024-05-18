@@ -1,4 +1,4 @@
-package com.example.androidferi;
+package com.example.android;
 
 import android.content.Context;
 import androidx.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.androidferi", appContext.getPackageName());
+        assertEquals("com.example.android", appContext.getPackageName());
     }
 }
